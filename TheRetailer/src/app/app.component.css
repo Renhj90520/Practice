@@ -1,0 +1,17 @@
+app-slide-carousel {
+  height: 500px;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.category {
+  height: 376px;
+}
+
+footer {
+  height: 396px;
+  background-color: black;
+}
