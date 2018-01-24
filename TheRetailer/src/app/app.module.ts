@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SlideCarouselComponent } from './slide-carousel/slide-carousel.component';
+import { CardComponent } from './card/card.component';
+import { ProductItemComponent } from './product-item/product-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopBarComponent,
     NavbarComponent,
-    SlideCarouselComponent
+    SlideCarouselComponent,
+    CardComponent,
+    ProductItemComponent
   ],
   imports: [
     BrowserModule,

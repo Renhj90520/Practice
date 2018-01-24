@@ -4,8 +4,28 @@
   <app-slide-carousel [items]="carouselItems"></app-slide-carousel>
 </header>
 <main>
-  <section class="cards"></section>
-  <section class="products"></section>
+  <section class="cards">
+    <app-card backcolor="#b39964" withborder="true" title="SALE" text="The sale don't stop up to 75% off!"></app-card>
+    <app-card backcolor="#7d7d7d" title="ACCESSORIES" text="The sale don't stop up to 75% off!"></app-card>
+    <app-card backcolor="#1f1f1f" title="KOOKBOOK" text="Take a look at the upcoming trends."></app-card>
+  </section>
+  <section class="products">
+    <header>
+      <span class='title'>FEATURED PRODUCTS</span>
+      <span class="prevnext">
+        <span>
+          <i class="fa fa-angle-left"></i>
+        </span>
+        <span>
+          <i class="fa fa-angle-right"></i>
+        </span>
+      </span>
+      <span class="shortline"></span>
+    </header>
+    <div class="content">
+      <app-product-item *ngFor="let item of featureItems" [item]="item"></app-product-item>
+    </div>
+  </section>
   <section class="team"></section>
   <section class="testimonials"></section>
   <section class="blogs"></section>

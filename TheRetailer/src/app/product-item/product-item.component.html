@@ -1,0 +1,11 @@
+<img [src]="item.src">
+<p class="name">{{item.name}}</p>
+<p class="feature">{{item.feature}}</p>
+<p class="price">
+  <span class="prev-price" *ngIf="item.prevprice">${{item.prevprice}}</span>
+  <span class="price-main">${{item.price.substring(0,item.price.indexOf('.'))}}</span>
+  <span class="price-second">{{item.price.substring(item.price.indexOf('.'))}}</span>
+</p>
+<span class="round-sign">
+  SALE
+</span>
