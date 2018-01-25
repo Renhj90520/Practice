@@ -5,12 +5,12 @@ a {
   cursor: pointer;
 }
 
-.clearfix:befor,
-.clearfix:after {
+.clearfix::before,
+.clearfix::after {
   display: table;
   content: ' ';
 }
 
-.clearfix:after {
+.clearfix::after {
   clear: both;
 }

@@ -10,27 +10,27 @@
     <app-card backcolor="#1f1f1f" title="KOOKBOOK" text="Take a look at the upcoming trends."></app-card>
   </section>
   <section class="products">
-    <header>
-      <span class='title'>FEATURED PRODUCTS</span>
-      <span class="prevnext">
-        <span>
-          <i class="fa fa-angle-left"></i>
-        </span>
-        <span>
-          <i class="fa fa-angle-right"></i>
-        </span>
-      </span>
-      <span class="shortline"></span>
-    </header>
+    <app-section-title title="FEATURED PRODUCTS" hasOper="true"></app-section-title>
     <div class="content">
       <app-product-item *ngFor="let item of featureItems" [item]="item"></app-product-item>
     </div>
   </section>
-  <section class="team"></section>
-  <section class="testimonials"></section>
-  <section class="blogs"></section>
-  <section class="work"></section>
-  <section class="themes"></section>
+  <section class="team">
+    <app-box-title title="MEET THE TEAM"></app-box-title>
+    <app-team-member *ngFor="let mem of members" [member]="mem"></app-team-member>
+  </section>
+  <section class="testimonials">
+    <app-section-title title="CUSTOMER TESTIMONIALS"></app-section-title>
+    <app-testimonial *ngFor="let item of testimonials;let i=index" [isLeft]="i%2===1" [item]="item"></app-testimonial>
+  </section>
+  <section class="blogs">
+    <app-section-title title="FROM THE BLOG" hasOper="true"></app-section-title>
+    <app-blog-item *ngFor="let blog of blogs" [item]="blog"></app-blog-item>
+  </section>
+  <section class="themes">
+    <p class="themetitle">We Empower WordPress Developers With Design-Driven Themes And A Classy Experience Their Clients Will Just Love</p>
+    <app-theme-item *ngFor="let theme of themes" [item]="theme"></app-theme-item>
+  </section>
   <section class="moretheme"></section>
   <section class="prices"></section>
   <section class="services"></section>

@@ -8,6 +8,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SlideCarouselComponent } from './slide-carousel/slide-carousel.component';
 import { CardComponent } from './card/card.component';
 import { ProductItemComponent } from './product-item/product-item.component';
+import { BoxTitleComponent } from './box-title/box-title.component';
+import { TeamMemberComponent } from './team-member/team-member.component';
+import { SectionTitleComponent } from './section-title/section-title.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
+import { BlogItemComponent } from './blog-item/blog-item.component';
+import { ThemeItemComponent } from './theme-item/theme-item.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { ProductItemComponent } from './product-item/product-item.component';
     NavbarComponent,
     SlideCarouselComponent,
     CardComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    BoxTitleComponent,
+    TeamMemberComponent,
+    SectionTitleComponent,
+    TestimonialComponent,
+    BlogItemComponent,
+    ThemeItemComponent
   ],
   imports: [
     BrowserModule,

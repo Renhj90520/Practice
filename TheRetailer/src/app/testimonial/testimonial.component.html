@@ -1,0 +1,11 @@
+<div class="intro" [ngClass]="{'left':isLeft,'right':!isLeft}">
+  <img [src]="item.src" alt="pic">
+  <p class="name">{{item.name}}</p>
+  <p class="company">{{item.company}}</p>
+</div>
+<p class="message clearfix" [ngClass]="{'left':!isLeft,'right':isLeft}">
+  <img src="assets/images/quote.png" alt="">
+  <span>
+    {{item.text}}
+  </span>
+</p>

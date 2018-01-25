@@ -1,0 +1,42 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  margin-bottom: 30px;
+  border-top: 1px solid #c3c3c3;
+  position: relative;
+}
+
+.shortline {
+  height: 2px;
+  width: 60px;
+  background: #000;
+  position: absolute;
+  top: 60px;
+}
+
+.title {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.prevnext span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #b2b2b2;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  color: #b2b2b2;
+  font-size: 20px;
+}
+
+.prevnext span:first-child i {
+  margin-left: -3px;
+}
+
+.prevnext span:last-child i {
+  margin-right: -3px;
+}
