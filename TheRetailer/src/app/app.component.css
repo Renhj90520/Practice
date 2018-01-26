@@ -39,3 +39,20 @@ footer {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
+
+.prices {
+  margin: 40px 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services h2 {
+  font-size: 13px;
+}
+
+.qa h2 {
+  font-size: 13px;
+}

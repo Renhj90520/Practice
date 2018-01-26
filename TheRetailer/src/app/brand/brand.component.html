@@ -1,0 +1,9 @@
+<div class="border">
+  <p class="main">{{main}}</p>
+  <div class="line"></div>
+  <p class="second">{{second}}</p>
+</div>
+<div class="sign" *ngIf="withSign">
+  <p class="light">{{signText.substring(0,signText.indexOf(','))}}</p>
+  <p class="bold">{{signText.substring(signText.indexOf(',')+1)}}</p>
+</div>

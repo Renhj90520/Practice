@@ -1,0 +1,53 @@
+:host {
+  width: 400px;
+  border-bottom: 1px solid #ccc;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-bottom: 60px;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+
+.info {
+  width: 240px;
+}
+
+.name {
+  font-size: 21px;
+}
+
+.shortline {
+  width: 60px;
+  height: 2px;
+  background-color: #000;
+}
+
+.synopsis {
+  font-size: 13px;
+  line-height: 22px;
+  color: #555;
+}
+
+.more {
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #a48444;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: #949494;
+  border-radius: 50%;
+}
+
+.icon i {
+  font-size: 55px;
+  color: white;
+  margin-top: 20px;
+}

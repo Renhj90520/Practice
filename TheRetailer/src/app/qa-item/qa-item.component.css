@@ -1,0 +1,9 @@
+h2 i {
+  color: #999;
+}
+
+h2 span {
+  font-size: 12px;
+  vertical-align: middle;
+  margin-left: 16px;
+}

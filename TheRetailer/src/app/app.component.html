@@ -31,11 +31,24 @@
     <p class="themetitle">We Empower WordPress Developers With Design-Driven Themes And A Classy Experience Their Clients Will Just Love</p>
     <app-theme-item *ngFor="let theme of themes" [item]="theme"></app-theme-item>
   </section>
-  <section class="moretheme"></section>
-  <section class="prices"></section>
-  <section class="services"></section>
-  <section class="blogdetail"></section>
-  <section class="qa"></section>
+  <section class="prices">
+    <app-brand [main]="brand.main" backColor="#323232" [second]="brand.second" withSign="true" [signText]="brand.signText" width="940"
+      height="120"></app-brand>
+    <app-brand [main]="brand.main" backColor="#717171" [second]="brand.second" [signText]="brand.signText" width="940" height="120"></app-brand>
+    <div class="flex">
+      <app-brand [main]="shortbrand.main" backColor="#b39964" [second]="shortbrand.second" width="300" height="150"></app-brand>
+      <app-brand [main]="shortbrand.main" backColor="#323232" [second]="shortbrand.second" width="300" height="150"></app-brand>
+      <app-brand [main]="shortbrand.main" backColor="#878787" [second]="shortbrand.second" width="300" height="150"></app-brand>
+    </div>
+  </section>
+  <section class="services">
+    <h2>OUR SERVICES</h2>
+    <app-service-tab></app-service-tab>
+  </section>
+  <section class="qa">
+    <h2>WHO IS THE RETAILER?</h2>
+    <app-qa-item *ngFor="let qa of qas" [item]="qa"></app-qa-item>
+  </section>
   <section class="blogimg"></section>
   <section class="category"></section>
 </main>

@@ -77,5 +77,45 @@ export class AppComponent {
     name: 'Post-ironic sweater',
     synopsis: 'Vinyl carles 3 wolf moon put a bird on it post ironic authentic ' +
       'single-origin coffee quinoa chillwave. Irony fingerstache thundercats. '
+  }, {
+    icon: 'fa-eye',
+    name: 'Post-ironic sweater',
+    synopsis: 'Vinyl carles 3 wolf moon put a bird on it post ironic authentic ' +
+      'single-origin coffee quinoa chillwave. Irony fingerstache thundercats. '
+  }, {
+    icon: 'fa-eye',
+    name: 'Post-ironic sweater',
+    synopsis: 'Vinyl carles 3 wolf moon put a bird on it post ironic authentic ' +
+      'single-origin coffee quinoa chillwave. Irony fingerstache thundercats. '
+  }, {
+    icon: 'fa-eye',
+    name: 'Post-ironic sweater',
+    synopsis: 'Vinyl carles 3 wolf moon put a bird on it post ironic authentic ' +
+      'single-origin coffee quinoa chillwave. Irony fingerstache thundercats. '
+  }];
+  brand = {
+    main: 'Free shipping on all orders over $75',
+    second: '*FREE OVER $125 for international orders',
+    signText: 'DELIVERED TO YOUR DOOR,IN 4 DAYS'
+  };
+  shortbrand = {
+    main: 'LATEST PRODUCTS',
+    second: 'NEW ARRIVALS'
+  };
+
+  qas = [{
+    question: 'Can t-shirts be directly purchased at the Retailer store?',
+    answer: 'This hoodie by Superdry has been constructed in cotton sweat fabric. It comes in a regular fit.' +
+      ' The details include: a hooded neck with custom fit drawcords, branding to the chest, a front pouch ' +
+      'pocket and rib knit cuffs and hem. This hoodie by Superdry has been styled with plimsolls. ' +
+      'This hoodie by Superdry has been constructed in cotton sweat fabric. It comes in a regular fit. ' +
+      'This hoodie by Superdry has been constructed in cotton sweat fabric. It comes in a regular fit.    ' +
+      'The details include: a hooded neck with custom fit drawcords, branding to the chest, a ' +
+      'front pouch pocket and rib knit cuffs and hem.This hoodie by Superdry has been styled with plimsolls.' +
+      'This hoodie by Superdry has been constructed in cotton sweat fabric.It comes in a regular fit.' +
+      'This hoodie by Superdry has been constructed in cotton sweat fabric.    It comes in a regular fit.' +
+      'The details include: a hooded neck with custom fit drawcords, branding to the chest, a front pouch ' +
+      'pocket and rib knit cuffs and hem.This hoodie by Superdry has been styled with plimsolls.This hoodie by ' +
+      'Superdry has been constructed in cotton sweat fabric.It comes in a regular fit. '
   }];
 }

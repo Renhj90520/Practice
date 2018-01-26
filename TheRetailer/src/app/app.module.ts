@@ -14,6 +14,9 @@ import { SectionTitleComponent } from './section-title/section-title.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { BlogItemComponent } from './blog-item/blog-item.component';
 import { ThemeItemComponent } from './theme-item/theme-item.component';
+import { BrandComponent } from './brand/brand.component';
+import { ServiceTabComponent } from './service-tab/service-tab.component';
+import { QaItemComponent } from './qa-item/qa-item.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { ThemeItemComponent } from './theme-item/theme-item.component';
     SectionTitleComponent,
     TestimonialComponent,
     BlogItemComponent,
-    ThemeItemComponent
+    ThemeItemComponent,
+    BrandComponent,
+    ServiceTabComponent,
+    QaItemComponent,
   ],
   imports: [
     BrowserModule,

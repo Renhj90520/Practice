@@ -14,7 +14,6 @@ export class CardComponent implements OnInit {
   constructor(private el: ElementRef) { }
 
   ngOnInit() {
-    console.log(this.el);
     this.el.nativeElement.style.background = this.backcolor;
   }
 

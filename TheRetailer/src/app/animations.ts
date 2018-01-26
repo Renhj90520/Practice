@@ -10,12 +10,12 @@ export const swing = trigger('swing', [transition('*=>*', animate('1.6s .3s', ke
     style({ transform: 'rotate(0deg)', offset: 1 }),
 ])))]);
 export const left_fly = trigger('left-fly', [
-    state('in', style({ left: '10px', opacity: '1' })),
-    state('out', style({ left: '-36px', opacity: '0' })),
+    state('in', style({ 'margin-left': '10px', opacity: '1' })),
+    state('out', style({ 'margin-left': '-36px', display: 'none', opacity: '0' })),
     transition('out<=>in', animate('300ms ease'))
 ]);
 export const right_fly = trigger('right-fly', [
-    state('in', style({ right: '10px', opacity: '1' })),
-    state('out', style({ right: '-36px', opacity: '0' })),
+    state('in', style({ 'margin-right': '10px', opacity: '1' })),
+    state('out', style({ 'margin-right': '-36px', display: 'none', opacity: '0' })),
     transition('in<=>out', animate('300ms ease'))
 ]);

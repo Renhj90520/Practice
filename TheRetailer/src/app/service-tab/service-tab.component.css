@@ -1,0 +1,68 @@
+:host {
+  display: block;
+  border-top: 2px solid #000;
+  border-bottom: 1px solid #ccc;
+}
+
+ul {
+  list-style: none;
+  border-right: 1px solid #ccc;
+  padding: 40px 50px 40px 0;
+  width: 270px;
+  margin: 0;
+  float: left;
+}
+
+li {
+  padding: 16px 0;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  cursor: pointer;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+  font-size: 8px;
+}
+
+i {
+  color: #ccc;
+  font-size: 25px;
+  position: absolute;
+  right: -60px;
+  border-left: 1px solid white;
+  display: none;
+  top: 12px;
+}
+
+.active i {
+  display: block;
+}
+
+.active a {
+  color: #000;
+}
+
+.hidecontent {
+  display: none;
+}
+
+.content {
+  width: 580px;
+  float: right;
+  margin-top: 40px;
+}
+
+.content p {
+  color: #555;
+  line-height: 20px;
+  font-size: 9px;
+}
+.content h2{
+    font-size: 13px;
+}

@@ -1,0 +1,59 @@
+:host {
+  display: inline-block;
+  padding: 12px;
+  position: relative;
+  margin: 40px 0;
+}
+
+.border {
+  border: 2px solid white;
+  height: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.line {
+  height: 2px;
+  width: 40%;
+  background-color: white;
+}
+
+.second {
+  font-size: 14px;
+}
+
+.sign {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background-color: #b39964;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  top: -12px;
+  right: 40px;
+}
+
+.light {
+  width: 74px;
+  font-size: 10px;
+  text-align: center;
+  margin: 38px auto 0px;
+  line-height: 16px;
+}
+
+.bold {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 2px;
+}
