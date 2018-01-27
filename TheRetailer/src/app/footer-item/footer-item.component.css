@@ -1,0 +1,15 @@
+:host {
+  width: 220px;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 40px 0 25px;
+}
+
+.content {
+  border-top: 2px solid #3d3d3d;
+  padding-top: 20px;
+}

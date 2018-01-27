@@ -53,6 +53,115 @@ footer {
   font-size: 13px;
 }
 
+.qa {
+  margin-bottom: 60px;
+}
+
 .qa h2 {
   font-size: 13px;
+  margin: 40px 0 20px;
+}
+
+footer .wrapper {
+  width: 940px;
+  margin: 40px auto 0;
+}
+
+.bag-small {
+  width: 75px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.prod {
+  color: #999;
+  font-size: 12px;
+  margin: 0;
+  line-height: 16px;
+}
+
+.sub {
+  font-size: 12px;
+  color: #b8b8b8;
+  margin-top: 0;
+}
+
+.label {
+  font-size: 12px;
+  color: white;
+}
+
+input {
+  outline: none;
+  border: 1px solid #4d4d4d;
+  background-color: transparent;
+  width: 220px;
+  height: 30px;
+}
+
+.spam {
+  font-size: 12px;
+  color: #5c5c5c;
+}
+
+button {
+  width: 100px;
+  height: 32px;
+  border: none;
+  background-color: #666;
+  color: white;
+  font-size: 9px;
+}
+
+.left a,
+.right a {
+  font-size: 9px;
+  text-decoration: none;
+  color: white;
+}
+
+.left p,
+.right p {
+  margin-top: 0;
+}
+
+.flex span {
+  background-color: white;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.flex span i {
+  font-size: 18px;
+}
+
+.flex span:hover {
+  background-color: #b39964;
+}
+
+.pay {
+  width: 100%;
+  border-top: 2px solid #3d3d3d;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.paycards {
+  width: 255px;
+  padding-top: 10px;
+}
+
+.paycards i {
+  color: white;
+  font-size: 22px;
+}
+
+.pay p {
+  font-size: 12px;
+  color: #999;
 }

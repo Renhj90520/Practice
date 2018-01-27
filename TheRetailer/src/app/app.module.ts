@@ -17,6 +17,7 @@ import { ThemeItemComponent } from './theme-item/theme-item.component';
 import { BrandComponent } from './brand/brand.component';
 import { ServiceTabComponent } from './service-tab/service-tab.component';
 import { QaItemComponent } from './qa-item/qa-item.component';
+import { FooterItemComponent } from './footer-item/footer-item.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { QaItemComponent } from './qa-item/qa-item.component';
     BrandComponent,
     ServiceTabComponent,
     QaItemComponent,
+    FooterItemComponent,
   ],
   imports: [
     BrowserModule,

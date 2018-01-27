@@ -49,10 +49,92 @@
     <h2>WHO IS THE RETAILER?</h2>
     <app-qa-item *ngFor="let qa of qas" [item]="qa"></app-qa-item>
   </section>
-  <section class="blogimg"></section>
-  <section class="category"></section>
+  <!-- <section class="blogimg"></section>
+  <section class="category"></section> -->
 </main>
 <footer>
-
-
+  <div class="wrapper">
+    <div class="flex">
+      <app-footer-item title="ABOUT THIS SITE">
+        <img src="assets/images/bag.png" class="bag-small" alt="">
+        <p class="prod">A cras tincidunt, ut tellus et. Gravida scele risque, ipsum sed iacul is, nunc non namtellus. Placerat sed phasellus,
+          purus purus elit. Cras ante eros. Erat vel. Donec vestibulum sed, vel euismod donec. </p>
+      </app-footer-item>
+      <app-footer-item title="WEEKLY UPDATES">
+        <p class="sub">Subscribe to our weekly newsletter.</p>
+        <p>
+          <label class="label" for="email">Email Address:</label>
+        </p>
+        <p>
+          <input type="email" id="email">
+        </p>
+        <p class="spam">We won't spam you, stay worry free.</p>
+        <p>
+          <button class="btn-sub">SUBSCRIBE</button>
+        </p>
+      </app-footer-item>
+      <app-footer-item title="INFORMATION">
+        <div class="flex">
+          <div class="left">
+            <p>
+              <a href="#">TRACK ORDER</a>
+            </p>
+            <p>
+              <a href="#">DELIVERY</a>
+            </p>
+            <p>
+              <a href="#">RETURN POLICY</a>
+            </p>
+            <p>
+              <a href="#">GIFTCARDS</a>
+            </p>
+          </div>
+          <div class="right">
+            <p>
+              <a href="#">CONTACT US</a>
+            </p>
+            <p>
+              <a href="#">STORE LOCATIONS</a>
+            </p>
+            <p>
+              <a href="#">FAQ</a>
+            </p>
+            <p>
+              <a href="#">TEAMS OF USE</a>
+            </p>
+          </div>
+        </div>
+      </app-footer-item>
+      <app-footer-item title="CONNECT">
+        <div class="flex">
+          <span>
+            <i class="fa fa-facebook"></i>
+          </span>
+          <span>
+            <i class="fa fa-pinterest-p"></i>
+          </span>
+          <span>
+            <i class="fa fa-linkedin"></i>
+          </span>
+          <span>
+            <i class="fa fa-twitter"></i>
+          </span>
+          <span>
+            <i class="fa fa-google-plus"></i>
+          </span>
+        </div>
+      </app-footer-item>
+    </div>
+    <div class="pay flex">
+      <div class="paycards flex">
+        <i class="fa fa-cc-visa"></i>
+        <i class="fa fa-cc-mastercard"></i>
+        <i class="fa fa-cc-paypal"></i>
+        <i class="fa fa-cc-amex"></i>
+        <i class="fa fa-cc-discover"></i>
+        <i class="fa fa-cc-jcb"></i>
+      </div>
+      <p class="copyright">&copy;2012 RETAILER.COM LTD.ALL RIGHTS RESERVED</p>
+    </div>
+  </div>
 </footer>

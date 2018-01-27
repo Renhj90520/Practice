@@ -1,5 +1,5 @@
-<h2 #toggle>
-  <i class="fa {{icon}}"></i>
+<h2 (click)="toggle()" [ngClass]="{'expand':expand}">
+  <i class="fa {{icon}}" [ngClass]="{'expand':expand}"></i>
   <span>{{item.question}}</span>
 </h2>
 <p>{{item.answer}}</p>

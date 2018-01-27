@@ -1,9 +1,54 @@
+:host {
+  height: 58px;
+  display: block;
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  line-height: 60px;
+  transition: height 500ms;
+}
+
+h2 {
+  margin: 0;
+  cursor: pointer;
+  padding-left: 2px;
+}
+
+h2.expand {
+  border-bottom: 1px solid #ccc;
+}
+
 h2 i {
   color: #999;
 }
 
 h2 span {
   font-size: 12px;
-  vertical-align: middle;
+  vertical-align: top;
   margin-left: 16px;
+}
+
+h2:hover {
+  color: #b39964;
+}
+
+h2:hover i {
+  color: #b39964;
+}
+
+h2 i.expand {
+  color: #000;
+}
+
+h2:hover i.expand {
+  color: #b39964;
+}
+
+p {
+  font-size: 13px;
+  color: #555;
+  line-height: 20px;
+  margin: 0 0 0 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
