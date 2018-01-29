@@ -1,0 +1,48 @@
+:host {
+  display: inline-flex;
+  width: 470px;
+  margin-right: 20px;
+  justify-content: space-between;
+}
+
+.img {
+  position: relative;
+}
+
+img {
+  width: 225px;
+  height: 165px;
+}
+
+.blog {
+  width: 225px;
+}
+
+p {
+  margin: 0;
+}
+
+.title {
+  font-size: 11px;
+  color: #545454;
+  font-weight: bold;
+  margin-top: 6px;
+  margin-bottom: 12px;
+}
+
+.info {
+  font-size: 8px;
+  font-style: italic;
+  color: #aaa;
+}
+
+.highlight {
+  color: #ff7426;
+}
+
+.text {
+  font-size: 9px;
+  color: #777;
+  margin-top: 15px;
+  line-height: 15px;
+}

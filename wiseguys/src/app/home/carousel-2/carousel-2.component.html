@@ -1,0 +1,16 @@
+<div class="img">
+  <img src="assets/images/placehold1.png" alt="">
+  <app-corner-date [date]="item.date"></app-corner-date>
+</div>
+<div class="blog">
+  <p class="title">{{item.title}}</p>
+  <p class="info">
+    by
+    <span class="highlight">{{item.auth}}</span>.
+    in
+    <span class="highlight">{{item.type}}</span>.
+    <span>{{item.commNum}}</span>
+    <span class="highlight"> Comments</span>
+  </p>
+  <p class="text">{{item.text}}</p>
+</div>

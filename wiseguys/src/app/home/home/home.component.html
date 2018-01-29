@@ -1,0 +1,10 @@
+<app-intros [intros]="intros">
+</app-intros>
+<app-scroll-header title="FEATURED WORKS" (onscroll)="scroll4($event)"></app-scroll-header>
+<app-roll-carousel [wrapperWidth]="width4" showNum="4" [offset]="offset4">
+  <app-carousel-4 *ngFor="let item of works" [item]="item"></app-carousel-4>
+</app-roll-carousel>
+<app-scroll-header title="LATEST BLOG POSTS" (onscroll)="scroll2($event)"></app-scroll-header>
+<app-roll-carousel [wrapperWidth]="width2" showNum="2" [offset]="offset2">
+  <app-carousel-2 *ngFor="let item of blogs" [item]="item"></app-carousel-2>
+</app-roll-carousel>

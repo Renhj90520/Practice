@@ -1,0 +1,38 @@
+:host {
+  width: 225px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+img {
+  width: 225px;
+  height: 170px;
+}
+
+.info {
+  width: 223px;
+  border: 1px solid #ddd;
+  height: 64px;
+  border-top-width: 0;
+  background-color: #f8f8f8;
+  padding: 16px 0;
+  text-align: center;
+  margin-top: -2px;
+}
+
+p {
+  margin: 0;
+}
+
+.title {
+  font-size: 9px;
+  color: #545454;
+  font-weight: bold;
+}
+
+.type {
+  color: #aaa;
+  font-style: italic;
+  font-size: 8px;
+  margin-top: 13px;
+}

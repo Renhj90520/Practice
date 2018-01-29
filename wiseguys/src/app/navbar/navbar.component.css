@@ -30,6 +30,7 @@ li {
 .menu>li {
   display: inline-block;
   position: relative;
+  z-index: 10;
 }
 
 a {
@@ -107,5 +108,5 @@ a {
 
 .shadow {
   margin-left: 200px;
-  z-index: 9;
+  position: absolute;
 }

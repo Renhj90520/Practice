@@ -1,0 +1,12 @@
+:host {
+  display: block;
+  width: 960px;
+  overflow: hidden;
+  background-color: white;
+  padding-top: 26px;
+  padding-bottom: 58px;
+}
+
+.holder {
+  transition: all 600ms;
+}

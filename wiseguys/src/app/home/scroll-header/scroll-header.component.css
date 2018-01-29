@@ -1,0 +1,46 @@
+:host {
+  display: block;
+  height: 50px;
+  background-color: #f8f8f8;
+  text-align: center;
+  position: relative;
+}
+
+span {
+  height: 50px;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  background-color: #ff6600;
+  display: inline-block;
+  line-height: 50px;
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+span::after {
+  content: ' ';
+  border: 6px solid transparent;
+  border-top-color: #ff6600;
+  border-bottom-width: 0;
+  position: absolute;
+  margin-left: -6px;
+}
+
+.controls {
+  position: absolute;
+  top: 15px;
+  right: 0px;
+  color: #232323;
+}
+
+.controls i {
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.controls i:hover {
+  color: #ff6600;
+}
