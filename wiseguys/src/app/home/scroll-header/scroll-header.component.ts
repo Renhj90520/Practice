@@ -7,6 +7,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 })
 export class ScrollHeaderComponent implements OnInit {
   @Input() title: string;
+  @Input() withControls = 'true';
   @Output() onscroll: EventEmitter<number> = new EventEmitter<number>();
   constructor() { }
 

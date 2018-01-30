@@ -1,0 +1,11 @@
+<header>
+  <p class="title">{{title}}</p>
+  <div class="controls" *ngIf="withControls==='true'">
+    <span class="control" [ngClass]="{'active':i===current}" *ngFor="let c of items;let i=index;" (click)="slideTo(i)">
+      <span></span>
+    </span>
+  </div>
+</header>
+<div class="content" [ngStyle]="{'width':+wrapperWidth+'px','transform':'translateX('+offset+'px)'}">
+  <ng-content></ng-content>
+</div>

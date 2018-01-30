@@ -8,3 +8,21 @@
 <app-roll-carousel [wrapperWidth]="width2" showNum="2" [offset]="offset2">
   <app-carousel-2 *ngFor="let item of blogs" [item]="item"></app-carousel-2>
 </app-roll-carousel>
+<app-scroll-header withControls="false" title="OTHER COOL STUFF"></app-scroll-header>
+<div class="flex">
+  <app-small-slide [items]="testimonials" title="TESTIMONIALS">
+    <app-testimonial *ngFor="let item of testimonials" [item]="item"></app-testimonial>
+  </app-small-slide>
+
+  <app-small-header-panel title="SERVICES">
+    <app-service-item title="Web development"></app-service-item>
+    <app-service-item title="Audio processing"></app-service-item>
+    <app-service-item title="Branding and advertising"></app-service-item>
+  </app-small-header-panel>
+  <app-small-slide [items]="members" title="MEET THE TEAM">
+    <app-member *ngFor="let item of members" [item]="item"></app-member>
+  </app-small-slide>
+  <app-small-header-panel title="COOL TABS">
+    <app-small-tab [items]="tabs"></app-small-tab>
+  </app-small-header-panel>
+</div>

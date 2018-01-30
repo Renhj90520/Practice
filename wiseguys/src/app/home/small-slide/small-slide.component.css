@@ -1,0 +1,50 @@
+:host {
+  width: 225px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #222;
+  font-weight: bold;
+  margin: 0;
+  font-size: 10px;
+}
+
+.control {
+  padding: 2px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 4px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.control span {
+  width: 4px;
+  height: 4px;
+  background-color: #222;
+  border-radius: 50%;
+  display: block;
+}
+
+.control.active,
+.control:hover {
+  border: 1px solid #ff6600;
+}
+
+.control.active span,
+.control:hover span {
+  background-color: #ff6600;
+}
+
+.content {
+  transition: all 600ms;
+}

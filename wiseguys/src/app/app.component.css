@@ -1,0 +1,107 @@
+.info {
+  height: 242px;
+  background-color: #65605c;
+}
+
+.info .wrapper div {
+  width: 225px;
+}
+
+.info img {
+  width: 150px;
+  height: 131px;
+  margin: 0 auto;
+  display: block;
+}
+
+.info p {
+  font-size: 9px;
+  color: #d9d8d7;
+  line-height: 19px;
+}
+
+h2 {
+  font-size: 10px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+hr {
+  border-top-color: #53504d;
+  border-bottom-color: #78736d;
+}
+
+i {
+  font-size: 16px;
+  margin-right: 9px;
+}
+
+.share i {
+  width: 32px;
+  height: 32px;
+  margin-right: 2px;
+  background-color: #99948e;
+  color: #65605c;
+  text-align: center;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+.about p {
+  margin: 6px 0;
+}
+
+.icon {
+  float: left;
+}
+
+.time {
+  float: right;
+  margin-top: 0;
+}
+
+.clearfix p {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.copyright {
+  height: 50px;
+  background-color: #4d4946;
+  justify-content: space-between;
+  font-size: 8px;
+  color: #9a9896;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 50px;
+}
+
+li {
+  display: inline-block;
+}
+
+li:last-child a {
+  border-right: none;
+}
+
+li:hover a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #9a9896;
+  font-size: 8px;
+  padding: 0 5px;
+  border-right: 1px solid #8c8a88;
+}
+
+.copyright p {
+  margin: 0;
+  line-height: 50px;
+}

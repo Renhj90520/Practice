@@ -1,0 +1,21 @@
+:host {
+  display: block;
+  height: 38px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  line-height: 38px;
+  color: #aaa;
+  margin-bottom: 5px;
+}
+
+i {
+  font-size: 22px;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+.title {
+  font-size: 11px;
+  height: 38px;
+  display: inline-block;
+}

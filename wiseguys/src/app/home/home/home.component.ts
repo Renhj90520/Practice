@@ -79,6 +79,58 @@ export class HomeComponent implements OnInit {
       date: '2012/12/08'
     },
   ];
+
+  testimonials = [{
+    text: 'Lorem ipsum dolor sit amet, conisset adipiscing elit. Suspendisse fermae enim magna, in males metus apt fae.',
+    name: 'Jogn C. William',
+    position: 'manager at Domus Inc.'
+  }, {
+    text: 'Lorem ipsum dolor sit amet, conisset adipiscing elit. Suspendisse fermae enim magna, in males metus apt fae.',
+    name: 'Jogn C. William 1',
+    position: 'manager at Domus Inc.'
+  }, {
+    text: 'Lorem ipsum dolor sit amet, conisset adipiscing elit. Suspendisse fermae enim magna, in males metus apt fae.',
+    name: 'Jogn C. William 2',
+    position: 'manager at Domus Inc.'
+  }, {
+    text: 'Lorem ipsum dolor sit amet, conisset adipiscing elit. Suspendisse fermae enim magna, in males metus apt fae.',
+    name: 'Jogn C. William 3',
+    position: 'manager at Domus Inc.'
+  }];
+
+  members = [{
+    name: 'Jennifer Donovan',
+    position: 'creative director',
+    born: 'January 7th 1982, Chicago IL',
+    studies: 'Havard University, IT',
+    skills: 'HTML, CSS, Javascript'
+  }, {
+    name: 'Jennifer Donovan 1',
+    position: 'creative director',
+    born: 'January 7th 1982, Chicago IL',
+    studies: 'Havard University, IT',
+    skills: 'HTML, CSS, Javascript'
+  }, {
+    name: 'Jennifer Donovan 2',
+    position: 'creative director',
+    born: 'January 7th 1982, Chicago IL',
+    studies: 'Havard University, IT',
+    skills: 'HTML, CSS, Javascript'
+  }];
+
+  tabs = [{
+    title: 'Work',
+    content: 'Lorem ipsum dolor sit amet, consect adipiscing elit. ' +
+      'Pellentesque semanti nibh, laoreet sed convallis vel, mauri euismod vitae nulla velit abis ent au.'
+  }, {
+    title: 'Play',
+    content: 'Lorem 1 ipsum dolor sit amet, consect adipiscing elit. ' +
+      'Pellentesque semanti nibh, laoreet sed convallis vel, mauri euismod vitae nulla velit abis ent au.'
+  }, {
+    title: 'Sleep',
+    content: 'Lorem 2 ipsum dolor sit amet, consect adipiscing elit. ' +
+      'Pellentesque semanti nibh, laoreet sed convallis vel, mauri euismod vitae nulla velit abis ent au.'
+  }];
   constructor() { }
 
   ngOnInit() {
