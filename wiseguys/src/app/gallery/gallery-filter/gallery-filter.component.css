@@ -1,0 +1,42 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+}
+
+a {
+  display: block;
+  font-size: 9px;
+  color: #fff;
+  padding: 9px 10px;
+  background-color: #aaa;
+  margin-right: 1px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li.active a,
+li:hover a {
+  background-color: #ff6600;
+}
+
+li.active a::after {
+  content: '';
+  border: 6px solid transparent;
+  border-top-color: #ff6600;
+  border-bottom-width: 0;
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  margin-left: -6px;
+}

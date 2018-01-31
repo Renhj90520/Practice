@@ -1,0 +1,5 @@
+<app-gallery-filter></app-gallery-filter>
+<div class="holder">
+  <app-gallery-item *ngFor="let item of items;let i=index" [ngClass]="{'noright':(i+1)%4===0}"></app-gallery-item>
+</div>
+<app-pager totalPage="5" showNum="3"></app-pager>

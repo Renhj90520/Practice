@@ -1,0 +1,33 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 40px 0 90px;
+}
+
+span {
+  height: 28px;
+  width: 28px;
+  line-height: 28px;
+  background-color: #aaa;
+  color: white;
+  margin-right: 1px;
+  text-align: center;
+  font-size: 9px;
+  cursor: pointer;
+}
+
+span.prev,
+span.next {
+  padding: 0 10px;
+  width: auto;
+}
+
+span:hover,
+span.active {
+  background-color: #ff6600;
+}
+
+.hide {
+  display: none;
+}

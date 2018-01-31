@@ -1,0 +1,3 @@
+<span class="prev" (click)="prev()" [ngClass]="{'hide':current===1}">previous</span>
+<span class="left" *ngFor="let item of showItems" (click)="navTo(item)" [ngClass]="{'active':current===item}">{{item}}</span>
+<span class="next" (click)="next()" [ngClass]="{'hide':current===totalPage}">next</span>

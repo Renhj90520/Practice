@@ -6,6 +6,7 @@ import { router } from './router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BannerComponent } from './banner/banner.component';
 import { HomeModule } from './home/home.module';
+import { GalleryModule } from './gallery/gallery.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeModule } from './home/home.module';
   imports: [
     BrowserModule,
     router,
-    HomeModule
+    HomeModule,
+    GalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]

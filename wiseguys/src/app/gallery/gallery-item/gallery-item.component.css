@@ -1,0 +1,63 @@
+:host {
+  display: inline-block;
+  width: 225px;
+  height: 170;
+  background-color: #97928e;
+  margin-right: 20px;
+  position: relative;
+  margin-bottom: 16px;
+  cursor: pointer;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+}
+
+img {
+  width: 151px;
+  height: 130px;
+  margin: 22px auto 15px;
+  display: block;
+}
+
+:host:hover {
+  border-top: 5px solid #ff6600;
+  border-bottom: 5px solid #ff6600;
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  transition: opacity 300ms;
+  opacity: 0;
+  display: none;
+}
+
+:host:hover .mask {
+  opacity: .5;
+  display: block;
+}
+
+i {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin-top: -20px;
+  opacity: 0;
+  transition: all 300ms;
+}
+
+:host:hover i {
+  margin-left: -20px;
+  opacity: 1;
+}
