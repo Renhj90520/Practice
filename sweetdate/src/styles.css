@@ -4,3 +4,12 @@
   font-family: 'yesteryear';
   src: url('assets/fonts/Yesteryear-Regular.ttf');
 }
+
+body {
+  background-color: #eee;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}

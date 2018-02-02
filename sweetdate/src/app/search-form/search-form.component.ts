@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./search-form.component.css']
 })
 export class SearchFormComponent implements OnInit {
-
+  dropdown = [{ key: 0, value: 'Man' }, { key: 1, value: 'Woman' }];
   constructor() { }
 
   ngOnInit() {

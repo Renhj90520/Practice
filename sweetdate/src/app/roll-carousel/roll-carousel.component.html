@@ -1,3 +1,12 @@
-<p>
-  roll-carousel works!
-</p>
+<header>
+  <span>or choose from last profile entries</span>
+  <div class="controls">
+    <i class="fa fa-arrow-left" (click)="goLeft()"></i>
+    <i class="fa fa-arrow-right" (click)="goRight()"></i>
+  </div>
+</header>
+<div class="viewport">
+  <ul [ngStyle]="{'width':+width+'px','transform':'translateX('+offset+'px)'}">
+    <li *ngFor="let item of items"></li>
+  </ul>
+</div>

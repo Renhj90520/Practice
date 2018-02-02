@@ -26,11 +26,172 @@
   </div>
   <div class="searchgroup">
     <app-search-form></app-search-form>
-    <app-roll-carousel></app-roll-carousel>
+    <app-roll-carousel showNum="3"></app-roll-carousel>
   </div>
-
+  <div class="web">
+    <p>Sweet young couple from 123rf.com</p>
+    <p>http://www.123rf.com/photo_10834908_portrait-of-a-beautiful-young-happy-smiling-couple--isolated.html</p>
+  </div>
 </section>
-<section class="joinus"></section>
-<section class="member"></section>
-<section class="subscribe"></section>
-<footer></footer>
+<section class="joinus">
+  <h1>It all starts with a
+    <span class="highlight">Date</span>
+  </h1>
+  <p>You find us, finally, and you are already in love. More than
+    <span class="highlight-dark">5,000,000</span> around the world already shared the same experience and uses our system.
+    <span class="highlight-dark"> Joining us today just got easier!</span>
+  </p>
+  <div class="buttons">
+    <button class="pink">Join us for FREE</button>
+    <span class="small">- or -</span>
+    <button class="blue">
+      <span>Our TV Commercial</span>
+      <i class="fa fa-film"></i>
+    </button>
+  </div>
+  <div class="aboutus flex">
+    <app-abourus-item src="assets/images/hearts.png" title="5 million" text="Members in total"></app-abourus-item>
+    <app-abourus-item src="assets/images/people.png" title="947" text="Members online"></app-abourus-item>
+    <app-abourus-item src="assets/images/female.png" title="530" text="Women online"></app-abourus-item>
+    <app-abourus-item src="assets/images/male.png" title="417" text="Men online"></app-abourus-item>
+  </div>
+</section>
+<section class="member">
+  <h1>Why Choose To
+    <span class="highlight">Become a Member?</span>
+  </h1>
+  <p>Here you have some reasons and some features. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.</p>
+  <div class="flex members">
+    <app-member-item *ngFor="let item of members" [item]="item"></app-member-item>
+  </div>
+  <div class="message">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p>
+      <span class="bold"> John Doe - </span>Designer, WESTWOOD</p>
+  </div>
+</section>
+<section class="subscribe">
+  <div class="concerns">
+    <h2>
+      <i class="fa fa-question-circle"></i>
+      Concerns or questions?
+    </h2>
+    <p>See our support area where you can find questions asked by our clients and answered by the SeventhQueen team.</p>
+    <a class="readmore">
+      <i class="fa fa-angle-right"></i>
+      SEE SUPPORT AREA
+    </a>
+  </div>
+  <div class="newsletter">
+    <h2>
+      <i class="fa fa-thumbs-up"></i>
+      NEWSLETTER SIGNUP
+    </h2>
+    <p>By subscribing to our mailing list you will always be update with the latest news from us.</p>
+    <p>
+      <app-input-group icon="fa-user" type="text" value=""></app-input-group>
+      <app-input-group icon="fa-envelope" type="email" value=""></app-input-group>
+    </p>
+    <p>* It really works!
+      <span class="highlight"> Mailchimp integration.</span>
+    </p>
+    <p>
+      <i class="fa fa-lock"></i>
+      Your
+      <span class="highlight"> privacy</span> is important to us and we will never rent or sell your information.
+    </p>
+  </div>
+</section>
+<footer>
+  <div class="info flex">
+    <div class="item">
+      <h2>
+        <i class="fa fa-heart"></i>
+        About us
+      </h2>
+      <p>Lorem ipsum dolor sit amet, has an nullam sadipscing ullamcorper, nisl graeci minimum usu no, ne est erat deseruisse
+        vituperata.
+      </p>
+      <p class="email">
+        <i class="fa fa-envelope"></i>
+        <span class="highlight">
+          info@sweetdate4u.com
+        </span>
+      </p>
+      <p class="phone">
+        <i class="fa fa-mobile"></i>
+        (123)456-7890
+      </p>
+      <p class="label">Stay in touch:</p>
+      <p class="share">
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-google-plus"></i>
+        <i class="fa fa-pinterest"></i>
+        <i class="fa fa-linkedin"></i>
+      </p>
+    </div>
+    <div class="item">
+      <h2>Useful links</h2>
+      <p>
+        <i class="fa fa-angle-right"></i>
+        <span class="highlight">Terms and Conditions</span>
+      </p>
+      <p>
+        <i class="fa fa-angle-right"></i>
+        <span class="highlight">Forgotten Username</span>
+      </p>
+      <p>
+        <i class="fa fa-angle-right"></i>
+        <span class="highlight">Forgotten Password</span>
+      </p>
+      <p>
+        <i class="fa fa-angle-right"></i>
+        <span class="highlight">FAQ</span>
+      </p>
+      <p>
+        <i class="fa fa-angle-right"></i>
+        <span class="highlight">Safety</span>
+      </p>
+      <p>
+        <i class="fa fa-angle-right"></i>
+        <span class="highlight">Affiliate</span>
+      </p>
+      <p>
+        <i class="fa fa-angle-right"></i>
+        <span class="highlight">Privacy Policy</span>
+      </p>
+    </div>
+    <div class="item">
+      <h2>
+        <i class="fa fa-twitter"></i>
+        Latest twitt's
+      </h2>
+      <p>
+        <span class="label">Lorem ipsum</span> dolor sit amet consectetur adipisicing elit, sed do eiusmod
+        <span class="highlight"> tempor incididunt</span>
+      </p>
+      <hr>
+      <p>
+        <span class="label">ut labore et</span> dolore magna aliqua.
+        <span class="highlight">Ut enim ad </span> minim veniam, quis nostrud
+      </p>
+      <hr>
+      <p>
+        <span class="label">Duis aute</span> irure dolor in reprehend
+        <span class="highlight"> in voluptate</span> velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+    <div class="item">
+      <h2>Latest from blog</h2>
+      <app-blog-item *ngFor="let item of texts" [text]="item"></app-blog-item>
+    </div>
+  </div>
+  <hr>
+  <div class="copyright">
+    <p>Copyright © 2013 YourSweetName Network. All Rights Reserved. A premium landing page from
+      <span class="highlight"> Seventh Queen</span>
+    </p>
+  </div>
+</footer>

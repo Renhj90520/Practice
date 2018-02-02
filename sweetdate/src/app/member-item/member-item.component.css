@@ -1,0 +1,54 @@
+:host {
+  display: block;
+  text-align: center;
+  width: 286px;
+}
+
+.img {
+  width: 180px;
+  height: 180px;
+  background-color: #e6e6e6;
+  border-radius: 50%;
+  border: 10px solid #fff;
+  margin: 0 auto;
+  line-height: 180px;
+}
+
+.img:hover {
+  border: 10px solid #f7f7f7;
+}
+
+.img i {
+  font-size: 21px;
+  color: white;
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.img:hover i {
+  opacity: 1;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 10px;
+  color: #777;
+  line-height: 19px;
+}
+
+a {
+  padding: 10px 20px;
+  font-size: 8px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #e6e6e6;
+  display: block;
+  width: 109px;
+  margin: 22px auto 0;
+  cursor: pointer;
+}

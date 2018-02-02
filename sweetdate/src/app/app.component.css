@@ -11,7 +11,7 @@
   margin-right: 13px;
 }
 
-.email {
+span.email {
   position: absolute;
   right: 357px;
 }
@@ -60,6 +60,7 @@ footer {
   font-weight: bold;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
+  cursor: pointer;
 }
 
 .btnsignup {
@@ -73,10 +74,253 @@ footer {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   margin-left: -5px;
+  cursor: pointer;
 }
 
 .searchgroup {
   position: absolute;
   top: 202px;
   left: 112px;
+}
+
+.web {
+  color: #66a6c1;
+  text-align: center;
+  width: 620px;
+  position: absolute;
+  right: 28px;
+  bottom: 306px;
+}
+
+.web p:first-child {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.web p:last-child {
+  font-size: 8px;
+}
+
+.joinus {
+  background-color: #f5f5f5;
+  height: 544px;
+  background-image: url('../assets/images/world_map.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding: 77px 0 66px;
+}
+
+h1 {
+  font-family: 'yesteryear';
+  font-size: 60px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.highlight {
+  color: #ff0461;
+}
+
+.joinus p {
+  font-size: 13px;
+  padding: 0 130px;
+  color: #777;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.highlight-dark {
+  color: #000;
+  font-weight: bold;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 44px;
+}
+
+button.pink,
+button.blue {
+  padding: 20px 30px;
+  border-radius: 3px;
+  border: none;
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.pink {
+  background-color: #ff0461;
+}
+
+button.blue {
+  background-color: #0296c0;
+}
+
+.small {
+  font-size: 7px;
+  color: #777;
+  margin: 0 5px;
+}
+
+.aboutus {
+  width: 863px;
+  margin: 76px auto 0;
+}
+
+.member {
+  height: 743px;
+  background-color: white;
+  padding: 78px 110px 61px;
+  width: 950px;
+}
+
+.member>p {
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.message {
+  text-align: center;
+  padding-top: 53px;
+  border-top: 1px solid #ebebeb;
+  margin-top: 60px;
+}
+
+.message p:first-child {
+  font-size: 17px;
+  line-height: 26px;
+  color: #777;
+}
+
+.message p:last-child {
+  font-size: 11px;
+  color: #a8a8a9;
+}
+
+.bold {
+  font-weight: bold;
+  color: #777;
+}
+
+.subscribe {
+  height: 260px;
+  background-image: url('../assets/images/roll_back.png');
+  background-position: top left;
+  background-repeat: repeat;
+  padding: 50px 110px;
+  width: 950px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.concerns,
+.newsletter {
+  background-color: #f2f2f2;
+  border: 1px solid #e6e6e6;
+  padding: 25px 20px;
+}
+
+.concerns h2,
+.newsletter h2 {
+  font-size: 20px;
+}
+
+.concerns p,
+.newsletter p {
+  font-size: 13px;
+  color: #777;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.concerns {
+  width: 270px;
+}
+
+.concerns a {
+  font-size: 11px;
+  font-weight: bold;
+  background-color: #e6e6e6;
+  padding: 10px;
+  margin-top: 18px;
+  display: inline-block;
+}
+
+.newsletter {
+  width: 585px;
+}
+
+app-input-group {
+  width: 172px;
+}
+
+footer {
+  height: 408px;
+  width: 950px;
+  padding: 56px 110px 40px;
+  background-image: url('../assets/images/back_dark.png');
+  background-position: top left;
+  background-repeat: repeat;
+}
+
+.item {
+  width: 195px;
+  color: #777;
+}
+
+.item h2 {
+  font-size: 18px;
+}
+
+.item p,
+.copyright p {
+  font-size: 13px;
+  line-height: 18px;
+  color: #777;
+}
+
+.phone {
+  margin-top: 0;
+}
+
+p.email {
+  margin-bottom: 2px;
+}
+
+p.label {
+  margin-bottom: 0;
+}
+
+p.share {
+  margin-top: 2px;
+}
+
+.share i {
+  width: 22px;
+  height: 22px;
+  border-radius: 3px;
+  margin-right: 5px;
+  background-color: #777;
+  color: #0b0b0b;
+  line-height: 22px;
+  text-align: center;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+span.label {
+  background-color: #333;
+  color: #989a9a;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+hr {
+  border: 1px solid #232323;
 }

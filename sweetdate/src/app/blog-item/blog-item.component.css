@@ -1,0 +1,40 @@
+:host {
+  display: block;
+  margin-bottom: 30px;
+}
+
+:host::before,
+:host::after {
+  content: ' ';
+  display: table;
+}
+
+:host::after {
+  clear: both;
+}
+
+.thumb {
+  width: 44px;
+  height: 44px;
+  background-color: #e6e6e6;
+  border: 3px solid #777;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.thumb.highlight {
+  border: 3px solid #ff0461;
+}
+
+p {
+  font-size: 13px;
+  margin: 0;
+  margin-left: 10px;
+  line-height: 20px;
+}
+
+.highlight {
+  color: #ff0461;
+  white-space: nowrap;
+}

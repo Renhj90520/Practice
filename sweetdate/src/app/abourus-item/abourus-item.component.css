@@ -1,0 +1,12 @@
+:host {
+  text-align: center;
+  color: #777;
+}
+
+.title {
+  font-size: 26px;
+}
+
+.text {
+  font-size: 14px;
+}
