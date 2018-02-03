@@ -1,0 +1,170 @@
+li {
+  display: inline-block;
+  border-top: 2px solid #f1f1f1;
+  border-bottom: 2px solid #f1f1f1;
+  border-right: 1px solid #f1f1f1;
+}
+
+.menu>li {
+  margin-left: -4px;
+  position: relative;
+}
+
+li>a {
+  display: block;
+  color: #656464;
+  font-size: 9px;
+  padding: 25px 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+li:first-child {
+  border-left: 2px solid #f1f1f1;
+}
+
+li:last-child {
+  border-right: 2px solid #f1f1f1;
+}
+
+a>i {
+  margin-right: 5px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 552px;
+  background-color: #fff;
+  box-shadow: 0 0 3px #e0e0e0;
+  margin-top: 7px;
+  padding: 13px 24px;
+}
+
+.menu>li>a {
+  border-top: 3px solid transparent;
+}
+
+.menu>li:hover>a {
+  border-top: 3px solid #f1f1f1;
+}
+
+.menu>li:hover .submenu {
+  display: flex;
+}
+
+.item {
+  border-right: 1px solid #e6e6e6;
+  width: 169px;
+  padding-left: 10px;
+}
+
+.item:last-child {
+  border-right: none;
+}
+
+.item:first-child {
+  padding-left: 0;
+}
+
+.item h3 {
+  font-size: 13px;
+}
+
+.item>a {
+  display: block;
+  font-size: 13px;
+  color: #888787;
+  line-height: 20px;
+}
+
+.hr {
+  height: 100%;
+  background-color: #e6e6e6;
+  width: 1px;
+}
+
+.submenu .flex {
+  align-items: flex-start;
+}
+
+.badge {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  width: 21px;
+  height: 21px;
+  background-color: #e1820a;
+  display: inline-block;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 21px;
+  margin-top: -5px;
+  margin-bottom: -3px;
+  margin-left: 5px;
+}
+
+.cart {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 272px;
+  padding: 16px 13px;
+  background-color: #fff;
+  box-shadow: 0 0 3px #e0e0e0;
+  margin-top: 16px;
+}
+
+.cart::before {
+  content: '';
+  border: 12px solid transparent;
+  border-top-width: 0;
+  border-bottom-color: white;
+  position: absolute;
+  top: -12px;
+  right: 20px;
+}
+
+.cart img {
+  border: 1px solid #ebe5e5;
+}
+
+.menu>li:hover .cart {
+  display: block;
+}
+
+hr {
+  border: 1px solid #ebe5e5;
+}
+
+.cart h3 {
+  font-size: 13px;
+  color: #625558
+}
+
+.cart p {
+  font-size: 12px;
+}
+
+.info {
+  margin-left: 10px;
+}
+
+.cart-item i {
+  color: #939393;
+}
+
+.btnfull {
+  border: none;
+  color: white;
+  background-color: #e58a15;
+  font-size: 15px;
+  padding: 16px 45px;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 3px 0 #c96b06;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+<img [src]="item.src" alt="">
+<p class="name">{{item.name}}</p>
+<div class="price flex">
+  <p>
+    {{item.price}}
+    <span class="small">$</span>
+  </p>
+  <i class="fa fa-shopping-basket"></i>
+</div>
+<div class="bottom">
+  <app-vote-rate [currentValue]="item.rate"></app-vote-rate>
+  <p class="btnadd">
+    <button>ADD TO CART</button>
+  </p>
+  <a class="left">
+    <i class="fa fa-heart"></i>
+    WISHLIST
+  </a>
+  <a class="right">
+    <i class="fa fa-check-square"></i>
+    COMPARE
+  </a>
+</div>

@@ -1,0 +1,15 @@
+<header>
+  <div class="wrapper flex">
+    <img src="assets/images/logo.png" class="logo" alt="">
+    <app-navbar></app-navbar>
+  </div>
+  <div class="banner">
+    <img src="assets/images/banner.png" alt="">
+  </div>
+</header>
+<main>
+  <div class="products clearfix">
+    <app-product-item *ngFor="let prod of products;let i=index;" [item]="prod"></app-product-item>
+  </div>
+</main>
+<footer></footer>

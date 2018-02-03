@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+.wrapper {
+  width: 1174px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.highlight {
+  color: #ce7c12;
+}
+
+a {
+  cursor: pointer;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
