@@ -1,0 +1,17 @@
+:host {
+  display: block;
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #b0b0b0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+}

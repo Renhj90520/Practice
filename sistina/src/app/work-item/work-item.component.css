@@ -1,0 +1,70 @@
+:host {
+  display: block;
+  float: left;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  position: relative;
+  cursor: pointer;
+  height: 180px;
+}
+
+:host:hover .mask {
+  opacity: .8;
+}
+
+:host:hover .title,
+:host:hover .type {
+  opacity: 1;
+}
+
+img {
+  width: 193px;
+  height: 180px;
+}
+
+.search {
+  width: 43px;
+  height: 43px;
+  text-align: center;
+  line-height: 43px;
+  background-color: #e08401;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.title {
+  position: absolute;
+  top: 65px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.type {
+  color: white;
+  position: absolute;
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+  top: 96px;
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.mask {
+  width: 100%;
+  height: 100%;
+  background-color: #e08401;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 300ms;
+}
